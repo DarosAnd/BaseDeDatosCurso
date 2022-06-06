@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CentroMedicoQuery", "CentroMedicoQuery\CentroMedicoQuery.ssmssqlproj", "{2D9371E4-0F7B-4292-936F-FE462B3984EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CentroMedicoQuerys", "CentroMedicoQuerys", "{105DA034-1840-4C23-B7C4-BDC4C1A784B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D9371E4-0F7B-4292-936F-FE462B3984EE}.Default|Default.ActiveCfg = Default
+		{72E77CDE-92FD-48E2-AA34-6663662F96F7}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D9371E4-0F7B-4292-936F-FE462B3984EE} = {105DA034-1840-4C23-B7C4-BDC4C1A784B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04933530-A64F-400C-B39A-F03A2E911F34}
+	EndGlobalSection
+EndGlobal

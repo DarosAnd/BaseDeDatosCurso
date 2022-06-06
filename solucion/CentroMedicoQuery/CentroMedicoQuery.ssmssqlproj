@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CentroMedicoQuery">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local)\MSQLDEVELOP:sa">
+          <Created>2022-04-05T12:30:15.5414597-03:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)\MSQLDEVELOP</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>CentroMedico</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Alta-Especialidad.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Alta-Especialidad.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Alta-Medico.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Alta-Medico.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Alta-Paciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Alta-Paciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Alta-Turno.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Alta-Turno.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Backup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Comandos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Comandos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Comandos2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Comandos2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="create-medico.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>create-medico.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DEL_Turno.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>DEL_Turno.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FCN_FechaTexto.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>FCN_FechaTexto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Importacion de datos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Importacion de datos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="JOB_CancelaTurnosVencidos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>JOB_CancelaTurnosVencidos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Operadores.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Operadores.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Selc_EspecialidadesMedicas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Selc_EspecialidadesMedicas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Selc-HistoriaPaciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Selc-HistoriaPaciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Selc-TurnoPaciente.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Selc-TurnoPaciente.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Sentencias.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Sentencias.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UPD_Paciente .sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>UPD_Paciente .sql</FullPath>
+        </FileNode>
+        <FileNode Name="UPD_Turno.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>UPD_Turno.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VIEW_MedicosEspecialidades.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\MSQLDEVELOP:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\MSQLDEVELOP</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>VIEW_MedicosEspecialidades.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
